@@ -47,6 +47,7 @@ typedef struct
   // controller input
   float vx;
   float vy;
+  float vOmega;
 
   // mouse input
   float vx_keyboard;
