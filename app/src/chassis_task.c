@@ -29,7 +29,7 @@ void Chassis_Task_Init()
                 .kd = 100.0f,
                 .output_limit = M2006_MAX_CURRENT,
             }};
-        g_chassis_motors[i] = DJI_Motor_Init(&chassis_motor_config, M2006);
+        g_chassis_motors[i-1] = DJI_Motor_Init(&chassis_motor_config, M2006);
     }
 }
 

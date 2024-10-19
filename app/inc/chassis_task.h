@@ -2,8 +2,8 @@
 #define CHASSIS_TASK_H
 
 #define WHEEL_DIAMETER (0.07f)
-#define TRACK_WIDTH (0.24749f);
-#define WHEEL_BASE (0.24749f);
+#define TRACK_WIDTH (0.24749f)
+#define WHEEL_BASE (0.24749f)
 #define MAX_CHASSIS_SPEED (0.5f)
 
 // Function prototypes
